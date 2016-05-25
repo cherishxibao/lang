@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+    <!-- 随着ImageView一起滑动直至消失 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_nav_logo"
+            android:layout_margin="4dp"/>
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/head_bg"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:gravity="center"
+            android:layout_margin="4dp"
+            android:text="搜索目的地/攻略/景点/酒店等"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

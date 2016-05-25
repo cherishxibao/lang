@@ -8,67 +8,41 @@
         android:id="@+id/Fragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" >
+        android:layout_weight="1">
     </FrameLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray" />
-
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/radio_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
+        android:orientation="horizontal">
         <RadioButton
-            android:id="@+id/btn1"
+            android:id="@+id/home"
             android:layout_width="0dp"
-            android:layout_height="55dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:padding="8dp"
             android:layout_weight="1"
-            android:background="#00000000"
-            android:button="@null"
-            android:drawableLeft="@drawable/ic_bottom_nav_discover_select"
-            android:gravity="center"
-            android:text="首页"
-            android:textColor="#FF7F00"
-            android:textSize="16sp" />
-
-        <RadioButton
-            android:id="@+id/btn2"
-            android:layout_width="0dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:layout_weight="1"
-            android:background="#00000000"
-            android:button="@null"
-            android:drawableLeft="@drawable/ic_bottom_nav_local_select"
-            android:gravity="center"
-            android:text="目的地"
-            android:textColor="#FF7F00"
-            android:textSize="16sp"
-            android:checked="false" />
-
-        <RadioButton
-            android:id="@+id/btn3"
-            android:layout_width="0dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center"
-            android:padding="8dp"
-            android:layout_weight="1"
-            android:background="#00000000"
+            android:background="@drawable/select_home_bg"
             android:button="@null"
             android:checked="true"
-            android:drawableLeft="@drawable/ic_bottom_nav_mine_select"
-            android:gravity="center"
-            android:text="我的"
-            android:textColor="#FF7F00"
-            android:textSize="16sp" />
+            />
 
+        <RadioButton
+            android:id="@+id/destination"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/select_destination_bg"
+            android:button="@null"
+            />
+
+        <RadioButton
+            android:id="@+id/mine"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/select_mine_bg"
+            android:button="@null" />
     </RadioGroup>
-
 </LinearLayout>

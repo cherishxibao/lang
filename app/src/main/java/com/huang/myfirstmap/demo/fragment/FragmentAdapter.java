@@ -28,6 +28,9 @@ public class FragmentAdapter implements RadioGroup.OnCheckedChangeListener {
         this.fragments = fragments;
         this.rGroup = rGroup;
         this.fgContentId = fgContentId;
+        fTransaction = activity.getSupportFragmentManager().beginTransaction();
+        fTransaction.add(fgContentId,fragments.get(0));
+        fTransaction.commit();
 
         rGroup.setOnCheckedChangeListener(this);
     }
