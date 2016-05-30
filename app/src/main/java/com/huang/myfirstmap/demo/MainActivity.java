@@ -1,13 +1,9 @@
 package com.huang.myfirstmap.demo;
 
-import android.os.Build;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.Window;
-import android.view.WindowManager;
 import android.widget.RadioGroup;
 import com.huang.myfirstmap.demo.fragment.DestinationFragment;
 import com.huang.myfirstmap.demo.fragment.FragmentAdapter;
@@ -26,6 +22,14 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.page_main);
+
+//        布局权重
+//        CoordinatorLayout.LayoutParams params=new CoordinatorLayout.LayoutParams
+//                (ViewGroup.LayoutParams.MATCH_PARENT,
+//                        (int) (getResources().getDisplayMetrics().heightPixels*0.79));
+//        AppBarLayout appBarLayout= (AppBarLayout) findViewById(R.id.app_bar);
+//        appBarLayout.setLayoutParams(params);
+
 
         rgs = (RadioGroup) findViewById(R.id.radio_group);//实例化RadioGroup
         fragments.add(new HomeFragment());
