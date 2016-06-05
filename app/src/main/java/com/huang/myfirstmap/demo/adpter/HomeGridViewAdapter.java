@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.huang.myfirstmap.demo.R;
-import com.huang.myfirstmap.demo.util.HomeGrid;
+import com.huang.myfirstmap.demo.entity.HomeGrid;
 
 import java.util.ArrayList;
 

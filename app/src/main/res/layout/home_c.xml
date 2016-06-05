@@ -18,92 +18,95 @@
     </LinearLayout>
 
     <LinearLayout
-        android:paddingLeft="28dp"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:drawableLeft="@drawable/d1"
                 android:drawableBottom="@drawable/e1"
-                android:text=" 昵称"
-                android:textSize="14sp"/>
-
+                android:drawableLeft="@drawable/d1"
+                android:text=" 我是红眼妖怪"
+                android:textSize="14sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="旅行的意义"/>
+                android:text="旅行的意义" />
         </LinearLayout>
 
         <LinearLayout
-            android:paddingLeft="40dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:drawableLeft="@drawable/d2"
                 android:drawableBottom="@drawable/e2"
-                android:text=" 昵称"
-                android:textSize="14sp"
-                />
+                android:drawableLeft="@drawable/d2"
+                android:text=" 飞天老猪"
+                android:textSize="14sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="旅行的意义"/>
+                android:text="旅行的意义" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:paddingLeft="28dp"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:drawableLeft="@drawable/d1"
-                android:drawableBottom="@drawable/e1"
-                android:text=" 昵称"
-                android:textSize="14sp"
-                />
+                android:drawableBottom="@drawable/e3"
+                android:text=" AnnaHawaii"
+                android:textSize="14sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="旅行的意义"/>
+                android:text="旅行的意义" />
         </LinearLayout>
 
         <LinearLayout
-            android:paddingLeft="40dp"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:drawableLeft="@drawable/d2"
-                android:drawableBottom="@drawable/e2"
-                android:text=" 昵称"
-                android:textSize="14sp"
-                />
+                android:drawableBottom="@drawable/e4"
+                android:text=" 赵小姐-zcy"
+                android:textSize="14sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="旅行的意义"/>
+                android:text="旅行的意义" />
         </LinearLayout>
     </LinearLayout>
 

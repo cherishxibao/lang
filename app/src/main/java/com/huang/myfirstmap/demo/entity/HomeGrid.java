@@ -1,4 +1,4 @@
-package com.huang.myfirstmap.demo.util;
+package com.huang.myfirstmap.demo.entity;
 
 /**
  * Created by huang on 2016/5/30.
